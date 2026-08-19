@@ -1,5 +1,3 @@
-student_details = (1001, "john")
-student_details2 = (78.2 , 91.5, 88.0)
-
-print(78.2 in student_details2)  # Output: True
-print(87.5 in student_details2)  # Output: False
+t1 = (10 , 20 , 30 , 40 , 50, 20 , 60 , 50 , 80 , 90 , 10)
+print(t1.count(20))
+print(t1.index(50))
